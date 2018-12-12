@@ -14,7 +14,10 @@ public class IACob {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Principal p = new Principal();
+        p.setTitle("IACob - Controle de Mensalidades");
+        p.setSize(800, 600);
+        p.setVisible(true);
     }
     
 }
